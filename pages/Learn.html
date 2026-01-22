@@ -1,745 +1,754 @@
 <!doctype html>
 <html lang="id">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Roadmap Belajar React JS dari Nol</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/Learn.css" />
     <link rel="stylesheet" href="../css/styles.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="Learn">
-      <div class="wrapper">
-        <div class="header">
-          <h1>Roadmap Belajar React JS dari Nol</h1>
-          <p>Panduan lengkap untuk menjadi developer React yang handal</p>
+        <div class="wrapper">
+            <div class="header">
+                <h1>Roadmap Belajar React JS dari Nol</h1>
+                <p>Panduan lengkap untuk menjadi developer React yang handal</p>
+            </div>
+
+            <div class="content">
+                <!-- FASE 1 -->
+                <h2>Fase 1: Persiapan & Fondasi</h2>
+                <p class="section-intro">
+                    Sebelum mulai React, kita perlu memahami dasar-dasar yang akan kita
+                    gunakan. Ini seperti belajar huruf sebelum menulis novel!
+                </p>
+
+                <h3>1.1 Prasyarat JavaScript - Hal-Hal Wajib Tahu</h3>
+
+                <h4>Konsep Dasar (Paling Penting!)</h4>
+                <div class="container">
+                    <p>
+                        <strong>Variabel:</strong> Tempat menyimpan data (var, let, const)
+                    </p>
+                    <p>
+                        <strong>Tipe Data:</strong> Jenis-jenis data (teks, angka,
+                        benar/salah, objek, daftar)
+                    </p>
+                    <p>
+                        <strong>Operator:</strong> Simbol untuk operasi (tambah, kurang,
+                        perbandingan)
+                    </p>
+                    <p>
+                        <strong>Kontrol Alur:</strong> Membuat keputusan dalam kode
+                        (if/else, switch, perulangan)
+                    </p>
+                </div>
+
+                <h4>Konsep Menengah (Penting Banget!)</h4>
+                <div class="container">
+                    <p>
+                        <strong>Fungsi:</strong> Blok kode yang bisa digunakan
+                        berkali-kali
+                    </p>
+                    <p>
+                        <strong>Arrow Functions:</strong> Cara menulis fungsi yang lebih
+                        singkat dan modern
+                    </p>
+                    <p>
+                        <strong>Array Methods:</strong> Cara memanipulasi daftar data
+                        (map, filter, reduce)
+                    </p>
+                    <p>
+                        <strong>Objek & Destructuring:</strong> Cara mengambil data dari
+                        objek dengan mudah
+                    </p>
+                    <p>
+                        <strong>Spread Operator (...):</strong> Cara menyalin atau
+                        menggabungkan data
+                    </p>
+                    <p>
+                        <strong>Template Literals:</strong> Cara menulis teks dengan
+                        variabel di dalamnya
+                    </p>
+                </div>
+
+                <h4>Konsep Lanjut (Untuk Pemahaman Mendalam)</h4>
+                <div class="container">
+                    <p>
+                        <strong>Promises & Async/Await:</strong> Cara menangani operasi
+                        yang memakan waktu
+                    </p>
+                    <p>
+                        <strong>Callback Functions:</strong> Fungsi yang dijalankan
+                        setelah sesuatu selesai
+                    </p>
+                    <p>
+                        <strong>Closures:</strong> Fungsi yang mengingat variabel dari
+                        tempat ia dibuat
+                    </p>
+                    <p>
+                        <strong>Scope & Hoisting:</strong> Aturan tentang di mana variabel
+                        bisa diakses
+                    </p>
+                </div>
+
+                <h3>1.2 Setup Environment - Persiapan Alat</h3>
+                <div class="container">
+                    <p>
+                        <strong>Install Node.js & npm:</strong> Alat untuk menjalankan
+                        JavaScript di komputer
+                    </p>
+                    <p>
+                        <strong>Pahami package.json:</strong> File yang berisi informasi
+                        project Anda
+                    </p>
+                    <p>
+                        <strong>Belajar npm commands:</strong> Perintah untuk install,
+                        jalankan, dan build project
+                    </p>
+                    <p>
+                        <strong>Pilih Code Editor:</strong> VS Code adalah pilihan terbaik
+                        untuk pemula
+                    </p>
+                </div>
+
+                <h3>1.3 HTML & CSS Basics - Fondasi Web</h3>
+                <div class="container">
+                    <p>
+                        <strong>HTML Structure:</strong> Cara membuat kerangka halaman web
+                    </p>
+                    <p>
+                        <strong>CSS Selectors & Properties:</strong> Cara memilih dan
+                        menghias elemen
+                    </p>
+                    <p>
+                        <strong>Flexbox & Grid:</strong> Cara mengatur tata letak halaman
+                        dengan mudah
+                    </p>
+                    <p>
+                        <strong>Responsive Design:</strong> Membuat halaman yang bagus di
+                        semua ukuran layar
+                    </p>
+                </div>
+
+                <!-- FASE 2 -->
+                <h2>Fase 2: React Fundamentals</h2>
+                <p class="section-intro">
+                    Sekarang kita mulai belajar React! Ini adalah bagian yang paling
+                    menyenangkan.
+                </p>
+
+                <h3>2.1 Pengenalan React - Apa Itu React?</h3>
+                <div class="container">
+                    <p>
+                        <strong>Apa itu React?</strong> Library JavaScript untuk membuat
+                        antarmuka yang interaktif
+                    </p>
+                    <p>
+                        <strong>Mengapa menggunakan React?</strong> Membuat kode lebih
+                        rapi, mudah dikelola, dan cepat
+                    </p>
+                    <p>
+                        <strong>Virtual DOM:</strong> Cara React membuat halaman lebih
+                        cepat
+                    </p>
+                    <p>
+                        <strong>JSX Syntax:</strong> Cara menulis HTML di dalam JavaScript
+                    </p>
+                    <p>
+                        <strong>Components:</strong> Blok-blok kecil yang bisa digunakan
+                        berkali-kali
+                    </p>
+                </div>
+
+                <h3>2.2 Functional Components - Membuat Komponen</h3>
+                <div class="container">
+                    <p>
+                        <strong>Membuat Functional Components:</strong> Cara membuat
+                        komponen dengan fungsi
+                    </p>
+                    <p><strong>Props:</strong> Cara mengirim data ke komponen lain</p>
+                    <p>
+                        <strong>Props Destructuring:</strong> Cara mengambil props dengan
+                        lebih rapi
+                    </p>
+                    <p>
+                        <strong>Default Props:</strong> Nilai default jika props tidak
+                        dikirim
+                    </p>
+                </div>
+
+                <h3>2.3 State & Hooks - Membuat Komponen Interaktif</h3>
+                <div class="container">
+                    <p>
+                        <strong>useState Hook:</strong> Cara menyimpan data yang bisa
+                        berubah
+                    </p>
+                    <p>
+                        <strong>useEffect Hook:</strong> Cara menjalankan kode setelah
+                        komponen muncul
+                    </p>
+                    <p>
+                        <strong>Lifecycle Methods:</strong> Tahap-tahap hidup komponen
+                    </p>
+                    <p>
+                        <strong>Conditional Rendering:</strong> Menampilkan atau
+                        menyembunyikan elemen berdasarkan kondisi
+                    </p>
+                </div>
+
+                <h3>2.4 Event Handling - Merespons Aksi User</h3>
+                <div class="container">
+                    <p>
+                        <strong>Handling Click Events:</strong> Apa yang terjadi saat user
+                        klik tombol
+                    </p>
+                    <p>
+                        <strong>Form Handling:</strong> Cara menangani input dari form
+                    </p>
+                    <p>
+                        <strong>Input Value Management:</strong> Cara menyimpan nilai
+                        input
+                    </p>
+                    <p>
+                        <strong>Event Object:</strong> Informasi tentang event yang
+                        terjadi
+                    </p>
+                </div>
+
+                <h3>2.5 Lists & Keys - Menampilkan Daftar Data</h3>
+                <div class="container">
+                    <p>
+                        <strong>Rendering Lists:</strong> Cara menampilkan banyak item
+                        dengan map()
+                    </p>
+                    <p>
+                        <strong>Importance of Keys:</strong> Mengapa kita perlu memberikan
+                        key pada list
+                    </p>
+                    <p>
+                        <strong>Conditional Rendering dalam Lists:</strong> Menampilkan
+                        item tertentu saja
+                    </p>
+                </div>
+
+                <!-- FASE 3 -->
+                <h2>Fase 3: Konsep Menengah</h2>
+                <p class="section-intro">
+                    Sekarang kita naik level! Belajar teknik-teknik yang lebih canggih.
+                </p>
+
+                <h3>3.1 Advanced Hooks - Hooks yang Lebih Powerful</h3>
+                <div class="container">
+                    <p>
+                        <strong>useContext:</strong> Cara berbagi data antar komponen
+                        tanpa props
+                    </p>
+                    <p>
+                        <strong>useReducer:</strong> Cara mengelola state yang kompleks
+                    </p>
+                    <p>
+                        <strong>useCallback & useMemo:</strong> Cara mengoptimalkan
+                        performa
+                    </p>
+                    <p>
+                        <strong>Custom Hooks:</strong> Membuat hooks sendiri untuk kode
+                        yang lebih rapi
+                    </p>
+                </div>
+
+                <h3>3.2 Component Composition - Menyusun Komponen</h3>
+                <div class="container">
+                    <p>
+                        <strong>Component Reusability:</strong> Membuat komponen yang bisa
+                        digunakan di mana saja
+                    </p>
+                    <p>
+                        <strong>Composition vs Inheritance:</strong> Cara yang benar untuk
+                        menyusun komponen
+                    </p>
+                    <p>
+                        <strong>Higher Order Components (HOC):</strong> Teknik lanjut
+                        untuk membungkus komponen
+                    </p>
+                    <p>
+                        <strong>Render Props Pattern:</strong> Cara berbagi logika antar
+                        komponen
+                    </p>
+                </div>
+
+                <h3>3.3 Styling - Cara Menghias Komponen</h3>
+                <div class="container">
+                    <p>
+                        <strong>Inline Styles:</strong> Menambah style langsung di
+                        komponen
+                    </p>
+                    <p>
+                        <strong>CSS Modules:</strong> CSS yang terisolasi untuk setiap
+                        komponen
+                    </p>
+                    <p>
+                        <strong>CSS-in-JS Libraries:</strong> Menulis CSS di dalam
+                        JavaScript (styled-components)
+                    </p>
+                    <p>
+                        <strong>Tailwind CSS:</strong> Framework CSS yang cepat dan mudah
+                    </p>
+                </div>
+
+                <h3>3.4 Form Handling - Menangani Form dengan Baik</h3>
+                <div class="container">
+                    <p>
+                        <strong>Controlled Components:</strong> Form yang dikendalikan
+                        oleh React
+                    </p>
+                    <p>
+                        <strong>Form Validation:</strong> Memastikan data form benar
+                        sebelum dikirim
+                    </p>
+                    <p>
+                        <strong>Handling Multiple Inputs:</strong> Menangani banyak input
+                        sekaligus
+                    </p>
+                    <p>
+                        <strong>Form Libraries:</strong> Library untuk membuat form lebih
+                        mudah (Formik, React Hook Form)
+                    </p>
+                </div>
+
+                <h3>3.5 API Integration - Mengambil Data dari Internet</h3>
+                <div class="container">
+                    <p>
+                        <strong>Fetch API Basics:</strong> Cara mengambil data dari server
+                    </p>
+                    <p><strong>Making GET Requests:</strong> Mengambil data</p>
+                    <p><strong>Making POST Requests:</strong> Mengirim data</p>
+                    <p>
+                        <strong>Error Handling:</strong> Menangani kesalahan dengan baik
+                    </p>
+                    <p>
+                        <strong>Loading States:</strong> Menampilkan loading saat data
+                        diambil
+                    </p>
+                </div>
+
+                <!-- FASE 4 -->
+                <h2>Fase 4: State Management</h2>
+                <p class="section-intro">
+                    Mengelola data yang kompleks dengan lebih baik.
+                </p>
+
+                <h3>4.1 Context API - Berbagi Data Antar Komponen</h3>
+                <div class="container">
+                    <p>
+                        <strong>Creating Context:</strong> Membuat tempat untuk berbagi
+                        data
+                    </p>
+                    <p>
+                        <strong>useContext Hook:</strong> Cara menggunakan data yang
+                        dibagikan
+                    </p>
+                    <p>
+                        <strong>Provider Pattern:</strong> Cara membagikan data ke seluruh
+                        aplikasi
+                    </p>
+                    <p><strong>Limitations:</strong> Keterbatasan Context API</p>
+                </div>
+
+                <h3>4.2 Redux - Mengelola State yang Sangat Kompleks</h3>
+                <div class="container">
+                    <p><strong>Redux Concepts:</strong> Actions, reducers, dan store</p>
+                    <p><strong>Redux Setup:</strong> Cara mengatur Redux</p>
+                    <p>
+                        <strong>Connecting React dengan Redux:</strong> Menghubungkan
+                        komponen dengan Redux
+                    </p>
+                    <p><strong>Redux DevTools:</strong> Alat untuk debug Redux</p>
+                </div>
+
+                <h3>4.3 Alternative State Management - Pilihan Lain</h3>
+                <div class="container">
+                    <p>
+                        <strong>Zustand:</strong> State management yang lebih sederhana
+                    </p>
+                    <p><strong>Recoil:</strong> State management dari Facebook</p>
+                    <p>
+                        <strong>Jotai:</strong> State management yang minimal dan
+                        fleksibel
+                    </p>
+                </div>
+
+                <!-- FASE 5 -->
+                <h2>Fase 5: Routing & Navigation</h2>
+                <p class="section-intro">Membuat aplikasi dengan banyak halaman.</p>
+
+                <h3>5.1 React Router - Navigasi Antar Halaman</h3>
+                <div class="container">
+                    <p>
+                        <strong>Installation & Setup:</strong> Cara menginstall React
+                        Router
+                    </p>
+                    <p><strong>Basic Routing:</strong> Membuat rute dasar</p>
+                    <p><strong>Route Parameters:</strong> Mengirim data melalui URL</p>
+                    <p><strong>Nested Routes:</strong> Rute dalam rute</p>
+                    <p><strong>Programmatic Navigation:</strong> Navigasi dari kode</p>
+                    <p>
+                        <strong>Link vs NavLink:</strong> Perbedaan antara Link dan
+                        NavLink
+                    </p>
+                </div>
+
+                <h3>5.2 Advanced Routing - Routing yang Lebih Canggih</h3>
+                <div class="container">
+                    <p>
+                        <strong>Protected Routes:</strong> Halaman yang hanya bisa diakses
+                        user tertentu
+                    </p>
+                    <p>
+                        <strong>Lazy Loading Routes:</strong> Memuat halaman hanya saat
+                        dibutuhkan
+                    </p>
+                    <p>
+                        <strong>Route Transitions:</strong> Animasi saat berpindah halaman
+                    </p>
+                </div>
+
+                <!-- FASE 6 -->
+                <h2>Fase 6: Topik Lanjut</h2>
+                <p class="section-intro">
+                    Teknik-teknik profesional untuk aplikasi yang lebih baik.
+                </p>
+
+                <h3>6.1 Performance Optimization - Membuat Aplikasi Lebih Cepat</h3>
+                <div class="container">
+                    <p>
+                        <strong>Code Splitting:</strong> Membagi kode menjadi
+                        bagian-bagian kecil
+                    </p>
+                    <p>
+                        <strong>Lazy Loading Components:</strong> Memuat komponen hanya
+                        saat dibutuhkan
+                    </p>
+                    <p>
+                        <strong>Memoization (React.memo):</strong> Mencegah render yang
+                        tidak perlu
+                    </p>
+                    <p>
+                        <strong>useCallback & useMemo Optimization:</strong>
+                        Mengoptimalkan fungsi dan nilai
+                    </p>
+                    <p>
+                        <strong>Profiling dengan React DevTools:</strong> Menganalisis
+                        performa aplikasi
+                    </p>
+                </div>
+
+                <h3>6.2 Testing - Memastikan Kode Bekerja dengan Baik</h3>
+                <div class="container">
+                    <p>
+                        <strong>Unit Testing dengan Jest:</strong> Menguji fungsi
+                        individual
+                    </p>
+                    <p>
+                        <strong>Component Testing dengan React Testing Library:</strong>
+                        Menguji komponen
+                    </p>
+                    <p>
+                        <strong>Integration Testing:</strong> Menguji beberapa bagian
+                        bersama-sama
+                    </p>
+                    <p>
+                        <strong>E2E Testing dengan Cypress:</strong> Menguji aplikasi dari
+                        sudut pandang user
+                    </p>
+                </div>
+
+                <h3>6.3 TypeScript dengan React - Kode yang Lebih Aman</h3>
+                <div class="container">
+                    <p><strong>Basic TypeScript:</strong> Pengenalan TypeScript</p>
+                    <p><strong>Typing Props:</strong> Menentukan tipe props</p>
+                    <p><strong>Typing State:</strong> Menentukan tipe state</p>
+                    <p><strong>Typing Hooks:</strong> Menentukan tipe hooks</p>
+                    <p><strong>Generic Types:</strong> Tipe yang fleksibel</p>
+                </div>
+
+                <h3>6.4 Build Tools - Alat untuk Build Aplikasi</h3>
+                <div class="container">
+                    <p><strong>Webpack Basics:</strong> Alat bundling yang powerful</p>
+                    <p><strong>Vite:</strong> Build tool yang cepat dan modern</p>
+                    <p>
+                        <strong>Create React App Alternatives:</strong> Alternatif lain
+                        untuk setup project
+                    </p>
+                </div>
+
+                <!-- FASE 7 -->
+                <h2>Fase 7: Project Nyata (Terus-menerus)</h2>
+                <p class="section-intro">
+                    Praktik adalah kunci! Mulai dari project sederhana hingga kompleks.
+                </p>
+
+                <h3>Level 1 - Pemula (Mulai dari sini!)</h3>
+                <div class="container">
+                    <p><strong>Todo App:</strong> Aplikasi untuk mencatat tugas</p>
+                    <p><strong>Weather App:</strong> Aplikasi cuaca</p>
+                    <p><strong>Calculator:</strong> Kalkulator sederhana</p>
+                    <p>
+                        <strong>Quote Generator:</strong> Aplikasi untuk menampilkan quote
+                        random
+                    </p>
+                </div>
+
+                <h3>Level 2 - Menengah (Setelah menguasai level 1)</h3>
+                <div class="container">
+                    <p><strong>Blog Platform:</strong> Platform untuk membaca blog</p>
+                    <p>
+                        <strong>E-commerce Product Listing:</strong> Toko online sederhana
+                    </p>
+                    <p><strong>Social Media Feed:</strong> Feed seperti Instagram</p>
+                    <p><strong>Chat Application:</strong> Aplikasi chat real-time</p>
+                </div>
+
+                <h3>Level 3 - Lanjut (Untuk yang sudah mahir)</h3>
+                <div class="container">
+                    <p>
+                        <strong>Full-stack E-commerce:</strong> Toko online lengkap dengan
+                        backend
+                    </p>
+                    <p>
+                        <strong>Project Management Tool:</strong> Aplikasi manajemen
+                        proyek
+                    </p>
+                    <p>
+                        <strong>Real-time Collaboration App:</strong> Aplikasi kolaborasi
+                        real-time
+                    </p>
+                    <p>
+                        <strong>Analytics Dashboard:</strong> Dashboard untuk analisis
+                        data
+                    </p>
+                </div>
+
+                <!-- RESOURCES -->
+                <h2>Resources Rekomendasi - Tempat Belajar</h2>
+
+                <div class="resources">
+                    <div class="resource-card">
+                        <h4>📚 Platform Belajar</h4>
+                        <ul>
+                            <li>
+                                <strong>Udemy:</strong> "The Complete React Course" by
+                                Maximilian Schwarzmüller
+                            </li>
+                            <li><strong>Scrimba:</strong> Kursus React interaktif</li>
+                            <li>
+                                <strong>FreeCodeCamp:</strong> Tutorial React di YouTube
+                            </li>
+                            <li><strong>Pluralsight:</strong> Path pembelajaran React</li>
+                            <li>
+                                <strong>Egghead.io:</strong> Kursus React berkualitas tinggi
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="resource-card">
+                        <h4>📖 Dokumentasi</h4>
+                        <ul>
+                            <li>
+                                <a href="https://react.dev" target="_blank">React Official Docs</a>
+                            </li>
+                            <li>
+                                <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>
+                            </li>
+                            <li>
+                                <a href="https://javascript.info" target="_blank">JavaScript.info</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="resource-card">
+                        <h4>🛠️ Tools & Libraries</h4>
+                        <ul>
+                            <li><strong>Create React App:</strong> Template starter</li>
+                            <li><strong>Vite:</strong> Build tool modern</li>
+                            <li><strong>React DevTools:</strong> Browser extension</li>
+                            <li><strong>Redux DevTools:</strong> Debug Redux</li>
+                            <li><strong>Postman:</strong> Testing API</li>
+                        </ul>
+                    </div>
+
+                    <div class="resource-card">
+                        <h4>💻 Platform Latihan</h4>
+                        <ul>
+                            <li><strong>LeetCode:</strong> Latihan algoritma</li>
+                            <li><strong>HackerRank:</strong> Coding challenges</li>
+                            <li><strong>CodeWars:</strong> JavaScript challenges</li>
+                            <li><strong>Frontend Mentor:</strong> Project real-world</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- TIPS -->
+                <div class="tips">
+                    <h3>Tips Sukses Belajar React</h3>
+                    <ul>
+                        <li>
+                            <strong>Konsistensi:</strong> Belajar 1-2 jam setiap hari lebih
+                            baik dari 8 jam seminggu
+                        </li>
+                        <li>
+                            <strong>Praktik:</strong> Jangan hanya menonton, langsung code
+                            dan eksperimen
+                        </li>
+                        <li>
+                            <strong>Build Projects:</strong> Aplikasikan ilmu dengan membuat
+                            project nyata
+                        </li>
+                        <li>
+                            <strong>Join Community:</strong> Bergabung dengan React
+                            community (Discord, Reddit, dll)
+                        </li>
+                        <li>
+                            <strong>Read Code:</strong> Baca source code library dan project
+                            open source
+                        </li>
+                        <li>
+                            <strong>Debug:</strong> Gunakan DevTools untuk memahami cara
+                            kerja React
+                        </li>
+                        <li>
+                            <strong>Dokumentasi:</strong> Selalu refer ke official
+                            documentation
+                        </li>
+                        <li>
+                            <strong>Bertanya:</strong> Jangan malu bertanya di Stack
+                            Overflow atau community
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- CHECKLIST -->
+                <h2>Checklist Pembelajaran - Pantau Progress Anda</h2>
+
+                <div class="checklist">
+                    <h4>✓ Fase 1</h4>
+                    <ul>
+                        <li>Kuasai JavaScript fundamentals</li>
+                        <li>Setup development environment</li>
+                        <li>Pahami HTML & CSS basics</li>
+                    </ul>
+                </div>
+
+                <div class="checklist">
+                    <h4>✓ Fase 2</h4>
+                    <ul>
+                        <li>Buat 5+ functional components</li>
+                        <li>Pahami useState dan useEffect</li>
+                        <li>Buat form dengan event handling</li>
+                        <li>Render lists dengan keys</li>
+                    </ul>
+                </div>
+
+                <div class="checklist">
+                    <h4>✓ Fase 3</h4>
+                    <ul>
+                        <li>Buat custom hooks</li>
+                        <li>Implementasi styling methods</li>
+                        <li>Buat form validation</li>
+                        <li>Fetch data dari API</li>
+                    </ul>
+                </div>
+
+                <div class="checklist">
+                    <h4>✓ Fase 4</h4>
+                    <ul>
+                        <li>Setup Context API</li>
+                        <li>Implementasi Redux (optional)</li>
+                        <li>Manage complex state</li>
+                    </ul>
+                </div>
+
+                <div class="checklist">
+                    <h4>✓ Fase 5</h4>
+                    <ul>
+                        <li>Setup React Router</li>
+                        <li>Buat multi-page application</li>
+                        <li>Implementasi protected routes</li>
+                    </ul>
+                </div>
+
+                <div class="checklist">
+                    <h4>✓ Fase 6</h4>
+                    <ul>
+                        <li>Optimize performance</li>
+                        <li>Write unit tests</li>
+                        <li>Setup TypeScript</li>
+                        <li>Understand build tools</li>
+                    </ul>
+                </div>
+
+                <div class="checklist">
+                    <h4>✓ Fase 7</h4>
+                    <ul>
+                        <li>Selesaikan 3+ projects</li>
+                        <li>Deploy ke production</li>
+                        <li>Contribute ke open source</li>
+                    </ul>
+                </div>
+
+                <!-- CONCLUSION -->
+                <div class="conclusion">
+                    <h2>Kesimpulan</h2>
+                    <p>
+                        Roadmap ini dirancang untuk membawa Anda dari pemula hingga
+                        developer React yang kompeten. Ingat hal-hal penting ini:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Kecepatan belajar berbeda untuk setiap orang</strong> -
+                            sesuaikan timeline dengan kemampuan Anda
+                        </li>
+                        <li>
+                            <strong>Praktik adalah kunci</strong> - jangan hanya teori,
+                            langsung code!
+                        </li>
+                        <li>
+                            <strong>Jangan takut membuat kesalahan</strong> - itu bagian
+                            dari proses belajar
+                        </li>
+                        <li>
+                            <strong>Tetap termotivasi</strong> - lihat progress yang sudah
+                            dicapai
+                        </li>
+                    </ul>
+                    <p style="margin-top: 20px; font-size: 1.2em">
+                        Selamat belajar dan semoga sukses!
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>&copy; 2026 Stufan. All rights reserved.</p>
+            </div>
         </div>
-
-        <div class="content">
-          <!-- FASE 1 -->
-          <h2>Fase 1: Persiapan & Fondasi</h2>
-          <p class="section-intro">
-            Sebelum mulai React, kita perlu memahami dasar-dasar yang akan kita
-            gunakan. Ini seperti belajar huruf sebelum menulis novel!
-          </p>
-
-          <h3>1.1 Prasyarat JavaScript - Hal-Hal Wajib Tahu</h3>
-
-          <h4>Konsep Dasar (Paling Penting!)</h4>
-          <div class="container">
-            <p>
-              <strong>Variabel:</strong> Tempat menyimpan data (var, let, const)
-            </p>
-            <p>
-              <strong>Tipe Data:</strong> Jenis-jenis data (teks, angka,
-              benar/salah, objek, daftar)
-            </p>
-            <p>
-              <strong>Operator:</strong> Simbol untuk operasi (tambah, kurang,
-              perbandingan)
-            </p>
-            <p>
-              <strong>Kontrol Alur:</strong> Membuat keputusan dalam kode
-              (if/else, switch, perulangan)
-            </p>
-          </div>
-
-          <h4>Konsep Menengah (Penting Banget!)</h4>
-          <div class="container">
-            <p>
-              <strong>Fungsi:</strong> Blok kode yang bisa digunakan
-              berkali-kali
-            </p>
-            <p>
-              <strong>Arrow Functions:</strong> Cara menulis fungsi yang lebih
-              singkat dan modern
-            </p>
-            <p>
-              <strong>Array Methods:</strong> Cara memanipulasi daftar data
-              (map, filter, reduce)
-            </p>
-            <p>
-              <strong>Objek & Destructuring:</strong> Cara mengambil data dari
-              objek dengan mudah
-            </p>
-            <p>
-              <strong>Spread Operator (...):</strong> Cara menyalin atau
-              menggabungkan data
-            </p>
-            <p>
-              <strong>Template Literals:</strong> Cara menulis teks dengan
-              variabel di dalamnya
-            </p>
-          </div>
-
-          <h4>Konsep Lanjut (Untuk Pemahaman Mendalam)</h4>
-          <div class="container">
-            <p>
-              <strong>Promises & Async/Await:</strong> Cara menangani operasi
-              yang memakan waktu
-            </p>
-            <p>
-              <strong>Callback Functions:</strong> Fungsi yang dijalankan
-              setelah sesuatu selesai
-            </p>
-            <p>
-              <strong>Closures:</strong> Fungsi yang mengingat variabel dari
-              tempat ia dibuat
-            </p>
-            <p>
-              <strong>Scope & Hoisting:</strong> Aturan tentang di mana variabel
-              bisa diakses
-            </p>
-          </div>
-
-          <h3>1.2 Setup Environment - Persiapan Alat</h3>
-          <div class="container">
-            <p>
-              <strong>Install Node.js & npm:</strong> Alat untuk menjalankan
-              JavaScript di komputer
-            </p>
-            <p>
-              <strong>Pahami package.json:</strong> File yang berisi informasi
-              project Anda
-            </p>
-            <p>
-              <strong>Belajar npm commands:</strong> Perintah untuk install,
-              jalankan, dan build project
-            </p>
-            <p>
-              <strong>Pilih Code Editor:</strong> VS Code adalah pilihan terbaik
-              untuk pemula
-            </p>
-          </div>
-
-          <h3>1.3 HTML & CSS Basics - Fondasi Web</h3>
-          <div class="container">
-            <p>
-              <strong>HTML Structure:</strong> Cara membuat kerangka halaman web
-            </p>
-            <p>
-              <strong>CSS Selectors & Properties:</strong> Cara memilih dan
-              menghias elemen
-            </p>
-            <p>
-              <strong>Flexbox & Grid:</strong> Cara mengatur tata letak halaman
-              dengan mudah
-            </p>
-            <p>
-              <strong>Responsive Design:</strong> Membuat halaman yang bagus di
-              semua ukuran layar
-            </p>
-          </div>
-
-          <!-- FASE 2 -->
-          <h2>Fase 2: React Fundamentals</h2>
-          <p class="section-intro">
-            Sekarang kita mulai belajar React! Ini adalah bagian yang paling
-            menyenangkan.
-          </p>
-
-          <h3>2.1 Pengenalan React - Apa Itu React?</h3>
-          <div class="container">
-            <p>
-              <strong>Apa itu React?</strong> Library JavaScript untuk membuat
-              antarmuka yang interaktif
-            </p>
-            <p>
-              <strong>Mengapa menggunakan React?</strong> Membuat kode lebih
-              rapi, mudah dikelola, dan cepat
-            </p>
-            <p>
-              <strong>Virtual DOM:</strong> Cara React membuat halaman lebih
-              cepat
-            </p>
-            <p>
-              <strong>JSX Syntax:</strong> Cara menulis HTML di dalam JavaScript
-            </p>
-            <p>
-              <strong>Components:</strong> Blok-blok kecil yang bisa digunakan
-              berkali-kali
-            </p>
-          </div>
-
-          <h3>2.2 Functional Components - Membuat Komponen</h3>
-          <div class="container">
-            <p>
-              <strong>Membuat Functional Components:</strong> Cara membuat
-              komponen dengan fungsi
-            </p>
-            <p><strong>Props:</strong> Cara mengirim data ke komponen lain</p>
-            <p>
-              <strong>Props Destructuring:</strong> Cara mengambil props dengan
-              lebih rapi
-            </p>
-            <p>
-              <strong>Default Props:</strong> Nilai default jika props tidak
-              dikirim
-            </p>
-          </div>
-
-          <h3>2.3 State & Hooks - Membuat Komponen Interaktif</h3>
-          <div class="container">
-            <p>
-              <strong>useState Hook:</strong> Cara menyimpan data yang bisa
-              berubah
-            </p>
-            <p>
-              <strong>useEffect Hook:</strong> Cara menjalankan kode setelah
-              komponen muncul
-            </p>
-            <p>
-              <strong>Lifecycle Methods:</strong> Tahap-tahap hidup komponen
-            </p>
-            <p>
-              <strong>Conditional Rendering:</strong> Menampilkan atau
-              menyembunyikan elemen berdasarkan kondisi
-            </p>
-          </div>
-
-          <h3>2.4 Event Handling - Merespons Aksi User</h3>
-          <div class="container">
-            <p>
-              <strong>Handling Click Events:</strong> Apa yang terjadi saat user
-              klik tombol
-            </p>
-            <p>
-              <strong>Form Handling:</strong> Cara menangani input dari form
-            </p>
-            <p>
-              <strong>Input Value Management:</strong> Cara menyimpan nilai
-              input
-            </p>
-            <p>
-              <strong>Event Object:</strong> Informasi tentang event yang
-              terjadi
-            </p>
-          </div>
-
-          <h3>2.5 Lists & Keys - Menampilkan Daftar Data</h3>
-          <div class="container">
-            <p>
-              <strong>Rendering Lists:</strong> Cara menampilkan banyak item
-              dengan map()
-            </p>
-            <p>
-              <strong>Importance of Keys:</strong> Mengapa kita perlu memberikan
-              key pada list
-            </p>
-            <p>
-              <strong>Conditional Rendering dalam Lists:</strong> Menampilkan
-              item tertentu saja
-            </p>
-          </div>
-
-          <!-- FASE 3 -->
-          <h2>Fase 3: Konsep Menengah</h2>
-          <p class="section-intro">
-            Sekarang kita naik level! Belajar teknik-teknik yang lebih canggih.
-          </p>
-
-          <h3>3.1 Advanced Hooks - Hooks yang Lebih Powerful</h3>
-          <div class="container">
-            <p>
-              <strong>useContext:</strong> Cara berbagi data antar komponen
-              tanpa props
-            </p>
-            <p>
-              <strong>useReducer:</strong> Cara mengelola state yang kompleks
-            </p>
-            <p>
-              <strong>useCallback & useMemo:</strong> Cara mengoptimalkan
-              performa
-            </p>
-            <p>
-              <strong>Custom Hooks:</strong> Membuat hooks sendiri untuk kode
-              yang lebih rapi
-            </p>
-          </div>
-
-          <h3>3.2 Component Composition - Menyusun Komponen</h3>
-          <div class="container">
-            <p>
-              <strong>Component Reusability:</strong> Membuat komponen yang bisa
-              digunakan di mana saja
-            </p>
-            <p>
-              <strong>Composition vs Inheritance:</strong> Cara yang benar untuk
-              menyusun komponen
-            </p>
-            <p>
-              <strong>Higher Order Components (HOC):</strong> Teknik lanjut
-              untuk membungkus komponen
-            </p>
-            <p>
-              <strong>Render Props Pattern:</strong> Cara berbagi logika antar
-              komponen
-            </p>
-          </div>
-
-          <h3>3.3 Styling - Cara Menghias Komponen</h3>
-          <div class="container">
-            <p>
-              <strong>Inline Styles:</strong> Menambah style langsung di
-              komponen
-            </p>
-            <p>
-              <strong>CSS Modules:</strong> CSS yang terisolasi untuk setiap
-              komponen
-            </p>
-            <p>
-              <strong>CSS-in-JS Libraries:</strong> Menulis CSS di dalam
-              JavaScript (styled-components)
-            </p>
-            <p>
-              <strong>Tailwind CSS:</strong> Framework CSS yang cepat dan mudah
-            </p>
-          </div>
-
-          <h3>3.4 Form Handling - Menangani Form dengan Baik</h3>
-          <div class="container">
-            <p>
-              <strong>Controlled Components:</strong> Form yang dikendalikan
-              oleh React
-            </p>
-            <p>
-              <strong>Form Validation:</strong> Memastikan data form benar
-              sebelum dikirim
-            </p>
-            <p>
-              <strong>Handling Multiple Inputs:</strong> Menangani banyak input
-              sekaligus
-            </p>
-            <p>
-              <strong>Form Libraries:</strong> Library untuk membuat form lebih
-              mudah (Formik, React Hook Form)
-            </p>
-          </div>
-
-          <h3>3.5 API Integration - Mengambil Data dari Internet</h3>
-          <div class="container">
-            <p>
-              <strong>Fetch API Basics:</strong> Cara mengambil data dari server
-            </p>
-            <p><strong>Making GET Requests:</strong> Mengambil data</p>
-            <p><strong>Making POST Requests:</strong> Mengirim data</p>
-            <p>
-              <strong>Error Handling:</strong> Menangani kesalahan dengan baik
-            </p>
-            <p>
-              <strong>Loading States:</strong> Menampilkan loading saat data
-              diambil
-            </p>
-          </div>
-
-          <!-- FASE 4 -->
-          <h2>Fase 4: State Management</h2>
-          <p class="section-intro">
-            Mengelola data yang kompleks dengan lebih baik.
-          </p>
-
-          <h3>4.1 Context API - Berbagi Data Antar Komponen</h3>
-          <div class="container">
-            <p>
-              <strong>Creating Context:</strong> Membuat tempat untuk berbagi
-              data
-            </p>
-            <p>
-              <strong>useContext Hook:</strong> Cara menggunakan data yang
-              dibagikan
-            </p>
-            <p>
-              <strong>Provider Pattern:</strong> Cara membagikan data ke seluruh
-              aplikasi
-            </p>
-            <p><strong>Limitations:</strong> Keterbatasan Context API</p>
-          </div>
-
-          <h3>4.2 Redux - Mengelola State yang Sangat Kompleks</h3>
-          <div class="container">
-            <p><strong>Redux Concepts:</strong> Actions, reducers, dan store</p>
-            <p><strong>Redux Setup:</strong> Cara mengatur Redux</p>
-            <p>
-              <strong>Connecting React dengan Redux:</strong> Menghubungkan
-              komponen dengan Redux
-            </p>
-            <p><strong>Redux DevTools:</strong> Alat untuk debug Redux</p>
-          </div>
-
-          <h3>4.3 Alternative State Management - Pilihan Lain</h3>
-          <div class="container">
-            <p>
-              <strong>Zustand:</strong> State management yang lebih sederhana
-            </p>
-            <p><strong>Recoil:</strong> State management dari Facebook</p>
-            <p>
-              <strong>Jotai:</strong> State management yang minimal dan
-              fleksibel
-            </p>
-          </div>
-
-          <!-- FASE 5 -->
-          <h2>Fase 5: Routing & Navigation</h2>
-          <p class="section-intro">Membuat aplikasi dengan banyak halaman.</p>
-
-          <h3>5.1 React Router - Navigasi Antar Halaman</h3>
-          <div class="container">
-            <p>
-              <strong>Installation & Setup:</strong> Cara menginstall React
-              Router
-            </p>
-            <p><strong>Basic Routing:</strong> Membuat rute dasar</p>
-            <p><strong>Route Parameters:</strong> Mengirim data melalui URL</p>
-            <p><strong>Nested Routes:</strong> Rute dalam rute</p>
-            <p><strong>Programmatic Navigation:</strong> Navigasi dari kode</p>
-            <p>
-              <strong>Link vs NavLink:</strong> Perbedaan antara Link dan
-              NavLink
-            </p>
-          </div>
-
-          <h3>5.2 Advanced Routing - Routing yang Lebih Canggih</h3>
-          <div class="container">
-            <p>
-              <strong>Protected Routes:</strong> Halaman yang hanya bisa diakses
-              user tertentu
-            </p>
-            <p>
-              <strong>Lazy Loading Routes:</strong> Memuat halaman hanya saat
-              dibutuhkan
-            </p>
-            <p>
-              <strong>Route Transitions:</strong> Animasi saat berpindah halaman
-            </p>
-          </div>
-
-          <!-- FASE 6 -->
-          <h2>Fase 6: Topik Lanjut</h2>
-          <p class="section-intro">
-            Teknik-teknik profesional untuk aplikasi yang lebih baik.
-          </p>
-
-          <h3>6.1 Performance Optimization - Membuat Aplikasi Lebih Cepat</h3>
-          <div class="container">
-            <p>
-              <strong>Code Splitting:</strong> Membagi kode menjadi
-              bagian-bagian kecil
-            </p>
-            <p>
-              <strong>Lazy Loading Components:</strong> Memuat komponen hanya
-              saat dibutuhkan
-            </p>
-            <p>
-              <strong>Memoization (React.memo):</strong> Mencegah render yang
-              tidak perlu
-            </p>
-            <p>
-              <strong>useCallback & useMemo Optimization:</strong>
-              Mengoptimalkan fungsi dan nilai
-            </p>
-            <p>
-              <strong>Profiling dengan React DevTools:</strong> Menganalisis
-              performa aplikasi
-            </p>
-          </div>
-
-          <h3>6.2 Testing - Memastikan Kode Bekerja dengan Baik</h3>
-          <div class="container">
-            <p>
-              <strong>Unit Testing dengan Jest:</strong> Menguji fungsi
-              individual
-            </p>
-            <p>
-              <strong>Component Testing dengan React Testing Library:</strong>
-              Menguji komponen
-            </p>
-            <p>
-              <strong>Integration Testing:</strong> Menguji beberapa bagian
-              bersama-sama
-            </p>
-            <p>
-              <strong>E2E Testing dengan Cypress:</strong> Menguji aplikasi dari
-              sudut pandang user
-            </p>
-          </div>
-
-          <h3>6.3 TypeScript dengan React - Kode yang Lebih Aman</h3>
-          <div class="container">
-            <p><strong>Basic TypeScript:</strong> Pengenalan TypeScript</p>
-            <p><strong>Typing Props:</strong> Menentukan tipe props</p>
-            <p><strong>Typing State:</strong> Menentukan tipe state</p>
-            <p><strong>Typing Hooks:</strong> Menentukan tipe hooks</p>
-            <p><strong>Generic Types:</strong> Tipe yang fleksibel</p>
-          </div>
-
-          <h3>6.4 Build Tools - Alat untuk Build Aplikasi</h3>
-          <div class="container">
-            <p><strong>Webpack Basics:</strong> Alat bundling yang powerful</p>
-            <p><strong>Vite:</strong> Build tool yang cepat dan modern</p>
-            <p>
-              <strong>Create React App Alternatives:</strong> Alternatif lain
-              untuk setup project
-            </p>
-          </div>
-
-          <!-- FASE 7 -->
-          <h2>Fase 7: Project Nyata (Terus-menerus)</h2>
-          <p class="section-intro">
-            Praktik adalah kunci! Mulai dari project sederhana hingga kompleks.
-          </p>
-
-          <h3>Level 1 - Pemula (Mulai dari sini!)</h3>
-          <div class="container">
-            <p><strong>Todo App:</strong> Aplikasi untuk mencatat tugas</p>
-            <p><strong>Weather App:</strong> Aplikasi cuaca</p>
-            <p><strong>Calculator:</strong> Kalkulator sederhana</p>
-            <p>
-              <strong>Quote Generator:</strong> Aplikasi untuk menampilkan quote
-              random
-            </p>
-          </div>
-
-          <h3>Level 2 - Menengah (Setelah menguasai level 1)</h3>
-          <div class="container">
-            <p><strong>Blog Platform:</strong> Platform untuk membaca blog</p>
-            <p>
-              <strong>E-commerce Product Listing:</strong> Toko online sederhana
-            </p>
-            <p><strong>Social Media Feed:</strong> Feed seperti Instagram</p>
-            <p><strong>Chat Application:</strong> Aplikasi chat real-time</p>
-          </div>
-
-          <h3>Level 3 - Lanjut (Untuk yang sudah mahir)</h3>
-          <div class="container">
-            <p>
-              <strong>Full-stack E-commerce:</strong> Toko online lengkap dengan
-              backend
-            </p>
-            <p>
-              <strong>Project Management Tool:</strong> Aplikasi manajemen
-              proyek
-            </p>
-            <p>
-              <strong>Real-time Collaboration App:</strong> Aplikasi kolaborasi
-              real-time
-            </p>
-            <p>
-              <strong>Analytics Dashboard:</strong> Dashboard untuk analisis
-              data
-            </p>
-          </div>
-
-          <!-- RESOURCES -->
-          <h2>Resources Rekomendasi - Tempat Belajar</h2>
-
-          <div class="resources">
-            <div class="resource-card">
-              <h4>📚 Platform Belajar</h4>
-              <ul>
-                <li>
-                  <strong>Udemy:</strong> "The Complete React Course" by
-                  Maximilian Schwarzmüller
-                </li>
-                <li><strong>Scrimba:</strong> Kursus React interaktif</li>
-                <li>
-                  <strong>FreeCodeCamp:</strong> Tutorial React di YouTube
-                </li>
-                <li><strong>Pluralsight:</strong> Path pembelajaran React</li>
-                <li>
-                  <strong>Egghead.io:</strong> Kursus React berkualitas tinggi
-                </li>
-              </ul>
-            </div>
-
-            <div class="resource-card">
-              <h4>📖 Dokumentasi</h4>
-              <ul>
-                <li>
-                  <a href="https://react.dev" target="_blank"
-                    >React Official Docs</a
-                  >
-                </li>
-                <li>
-                  <a href="https://developer.mozilla.org" target="_blank"
-                    >MDN Web Docs</a
-                  >
-                </li>
-                <li>
-                  <a href="https://javascript.info" target="_blank"
-                    >JavaScript.info</a
-                  >
-                </li>
-              </ul>
-            </div>
-
-            <div class="resource-card">
-              <h4>🛠️ Tools & Libraries</h4>
-              <ul>
-                <li><strong>Create React App:</strong> Template starter</li>
-                <li><strong>Vite:</strong> Build tool modern</li>
-                <li><strong>React DevTools:</strong> Browser extension</li>
-                <li><strong>Redux DevTools:</strong> Debug Redux</li>
-                <li><strong>Postman:</strong> Testing API</li>
-              </ul>
-            </div>
-
-            <div class="resource-card">
-              <h4>💻 Platform Latihan</h4>
-              <ul>
-                <li><strong>LeetCode:</strong> Latihan algoritma</li>
-                <li><strong>HackerRank:</strong> Coding challenges</li>
-                <li><strong>CodeWars:</strong> JavaScript challenges</li>
-                <li><strong>Frontend Mentor:</strong> Project real-world</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- TIPS -->
-          <div class="tips">
-            <h3>Tips Sukses Belajar React</h3>
-            <ul>
-              <li>
-                <strong>Konsistensi:</strong> Belajar 1-2 jam setiap hari lebih
-                baik dari 8 jam seminggu
-              </li>
-              <li>
-                <strong>Praktik:</strong> Jangan hanya menonton, langsung code
-                dan eksperimen
-              </li>
-              <li>
-                <strong>Build Projects:</strong> Aplikasikan ilmu dengan membuat
-                project nyata
-              </li>
-              <li>
-                <strong>Join Community:</strong> Bergabung dengan React
-                community (Discord, Reddit, dll)
-              </li>
-              <li>
-                <strong>Read Code:</strong> Baca source code library dan project
-                open source
-              </li>
-              <li>
-                <strong>Debug:</strong> Gunakan DevTools untuk memahami cara
-                kerja React
-              </li>
-              <li>
-                <strong>Dokumentasi:</strong> Selalu refer ke official
-                documentation
-              </li>
-              <li>
-                <strong>Bertanya:</strong> Jangan malu bertanya di Stack
-                Overflow atau community
-              </li>
-            </ul>
-          </div>
-
-          <!-- CHECKLIST -->
-          <h2>Checklist Pembelajaran - Pantau Progress Anda</h2>
-
-          <div class="checklist">
-            <h4>✓ Fase 1</h4>
-            <ul>
-              <li>Kuasai JavaScript fundamentals</li>
-              <li>Setup development environment</li>
-              <li>Pahami HTML & CSS basics</li>
-            </ul>
-          </div>
-
-          <div class="checklist">
-            <h4>✓ Fase 2</h4>
-            <ul>
-              <li>Buat 5+ functional components</li>
-              <li>Pahami useState dan useEffect</li>
-              <li>Buat form dengan event handling</li>
-              <li>Render lists dengan keys</li>
-            </ul>
-          </div>
-
-          <div class="checklist">
-            <h4>✓ Fase 3</h4>
-            <ul>
-              <li>Buat custom hooks</li>
-              <li>Implementasi styling methods</li>
-              <li>Buat form validation</li>
-              <li>Fetch data dari API</li>
-            </ul>
-          </div>
-
-          <div class="checklist">
-            <h4>✓ Fase 4</h4>
-            <ul>
-              <li>Setup Context API</li>
-              <li>Implementasi Redux (optional)</li>
-              <li>Manage complex state</li>
-            </ul>
-          </div>
-
-          <div class="checklist">
-            <h4>✓ Fase 5</h4>
-            <ul>
-              <li>Setup React Router</li>
-              <li>Buat multi-page application</li>
-              <li>Implementasi protected routes</li>
-            </ul>
-          </div>
-
-          <div class="checklist">
-            <h4>✓ Fase 6</h4>
-            <ul>
-              <li>Optimize performance</li>
-              <li>Write unit tests</li>
-              <li>Setup TypeScript</li>
-              <li>Understand build tools</li>
-            </ul>
-          </div>
-
-          <div class="checklist">
-            <h4>✓ Fase 7</h4>
-            <ul>
-              <li>Selesaikan 3+ projects</li>
-              <li>Deploy ke production</li>
-              <li>Contribute ke open source</li>
-            </ul>
-          </div>
-
-          <!-- CONCLUSION -->
-          <div class="conclusion">
-            <h2>Kesimpulan</h2>
-            <p>
-              Roadmap ini dirancang untuk membawa Anda dari pemula hingga
-              developer React yang kompeten. Ingat hal-hal penting ini:
-            </p>
-            <ul>
-              <li>
-                <strong>Kecepatan belajar berbeda untuk setiap orang</strong> -
-                sesuaikan timeline dengan kemampuan Anda
-              </li>
-              <li>
-                <strong>Praktik adalah kunci</strong> - jangan hanya teori,
-                langsung code!
-              </li>
-              <li>
-                <strong>Jangan takut membuat kesalahan</strong> - itu bagian
-                dari proses belajar
-              </li>
-              <li>
-                <strong>Tetap termotivasi</strong> - lihat progress yang sudah
-                dicapai
-              </li>
-            </ul>
-            <p style="margin-top: 20px; font-size: 1.2em">
-              Selamat belajar dan semoga sukses!
-            </p>
-          </div>
-        </div>
-
-        <div class="footer">
-          <p>&copy; 2026 Stufan. All rights reserved.</p>
-        </div>
-      </div>
     </div>
 
     <script src="../js/Learn.js"></script>
-  </body>
+    <script>
+        atOptions = {
+    'key' : '0edc212fbce069e4ccc3ce2663e67b87',
+    'format' : 'iframe',
+    'height' : 300,
+    'width' : 160,
+    'params' : {}
+  };
+    </script>
+    <script src="https://www.highperformanceformat.com/0edc212fbce069e4ccc3ce2663e67b87/invoke.js"></script>
+</body>
+
 </html>

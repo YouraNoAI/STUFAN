@@ -18,5 +18,5 @@ async function LearnPage(pageName) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  loadPage("Contact", document.querySelector(".link i:first-child"));
+  loadPage("Home", document.querySelector(".link i:first-child"));
 });
