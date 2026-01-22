@@ -1,0 +1,74 @@
+.container {
+  width: 80%;
+  height: 80dvh;
+  padding: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background:
+    linear-gradient(#111, #111) padding-box,
+    linear-gradient(180deg, #a855f7, #ec4899) border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #eaeaea;
+  animation: slide 1s ease;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  width: auto;
+  animation: fadeIn 1s ease;
+}
+
+nav .link {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  gap: 20px;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  background:
+    linear-gradient(#111, #111) padding-box,
+    linear-gradient(180deg, #a855f7, #ec4899) border-box;
+  box-shadow: 0 0 10px #a855f7aa;
+}
+
+nav .link i {
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  color: #eaeaea;
+  animation: fadeIn 2s ease;
+}
+
+nav .link i:hover {
+  color: #a855f7;
+  transform: scale(1.2);
+}
+
+nav .link .active {
+  color: #ec4899;
+}
+

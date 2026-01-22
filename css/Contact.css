@@ -1,0 +1,46 @@
+.Contact {
+  color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  animation: fadeIn 2s ease;
+}
+
+.Contact img {
+  animation: slide 1s ease;
+}
+
+.Contact .links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 24px;
+  animation: fadeIn 1s ease;
+}
+.Contact .links a {
+  color: #eaeaea;
+  font-weight: bolder;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  background:
+    linear-gradient(#111, #111) padding-box,
+    linear-gradient(180deg, #a855f7, #ec4899) border-box;
+    border: 2px solid transparent;
+    border-radius: 500px;
+    padding: 10px 20px;
+}
+
+.Contact .links a:hover {
+  box-shadow: 0 0 20px #ec4899aa;
+  transition: box-shadow 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+.Contact .links a span, .Contact .links a i{
+  animation: slideUp 1s ease;
+}

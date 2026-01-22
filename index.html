@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/HIMATIF-LIGHT.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="brand">
+            <img src="./assets/HIMATIF-LIGHT.png" alt="HIMATIF" width="30px">
+            <h2>STUFAN</h2>
+        </div>
+        <div id="Pages"></div>
+        <nav class="navbar">
+            <div class="link">
+                <i onclick="loadPage('Home', this)" class="fa-solid fa-house"></i>
+                <i onclick="loadPage('About', this)" class="fa-solid fa-info"></i>  
+                <i onclick="LearnPage('Learn', this)" class="fa-solid fa-graduation-cap"></i>
+                <i onclick="loadPage('Contact', this)" class="fa-solid fa-address-book"></i>
+            </div>
+        </nav>
+    </div>
+
+    <script src="./js/routing.js"></script>
+</body>
+</html>

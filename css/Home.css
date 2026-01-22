@@ -1,0 +1,43 @@
+
+
+.Home {
+  text-align: center;
+  color: #eaeaea;
+  font-size: 32px;
+  animation: fadeIn 2s ease;
+}
+
+.Home h2 span {
+  font-size: 48px;
+  font-weight: bolder;
+  background:
+    linear-gradient(90deg, #a855f7, #ec4899) padding-box,
+    linear-gradient(90deg, #a855f7, #ec4899) border-box;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.Home .button {
+  font-style: italic;
+  padding: 10px 20px;
+  width: max-content;
+  background: linear-gradient(90deg, #a855f7, #ec4899);
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ec4899aa;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 20px auto;
+  font-weight: bolder;
+  animation: slideUp 1s ease;
+}
+
+.Home .button:hover {
+  transform: scale(.95);
+  transition: 0.5s ease;
+  box-shadow: none;
+}

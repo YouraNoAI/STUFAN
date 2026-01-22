@@ -1,0 +1,33 @@
+.About{
+    text-align: start;
+    color: #eaeaea;
+    animation: fadeIn 2s ease;
+}
+
+.About h2{
+    font-size: 36px;
+    margin:  10px 0;
+    background:
+    linear-gradient(90deg, #a855f7, #ec4899) padding-box,
+    linear-gradient(90deg, #a855f7, #ec4899) border-box;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: slide 2s ease;
+}
+
+.About p{
+    animation: slideUp 1s ease;
+}
+
+.About .underline{
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #a855f7, #111);
+    margin: 20px 0;
+}
+.tujuan {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    border-left: 2px solid #a855f7;
+}
